@@ -85,8 +85,8 @@ demo_iris <- function(cols = c(1,2), nClust=3, kfold=5){
 
                   # Compute the KSD Value
                   model <- gmm(nComp = k, mu = clustMu, sigma=clustSigma, weights = clustWeights, d = d)
-                  score_q = pryr::partial(scorefunctiongmm, model=model)
-                  result <- KSD(data.matrix(testSet),score_q=score_q, 'rbf',-1.0)
+                  score_function = pryr::partial(scorefunctiongmm, model=model)
+                  result <- KSD(data.matrix(testSet),score_function=score_function, 'rbf',-1.0)
                   pVals[i] = result$p
 
                   # Plot the result only if we choose two factors

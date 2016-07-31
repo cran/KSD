@@ -41,7 +41,7 @@ find_median_distance <- function(Z){
 }
 
 
-ratio_median_heuristic <- function(Z, score_q){
+ratio_median_heuristic <- function(Z, score_function){
 
       Z = as.array(Z)
       size1 <- dim(Z)[1]
@@ -80,7 +80,7 @@ ratio_median_heuristic <- function(Z, score_q){
       if(is.na(size2)){
             Zmed = as.double(Zmed)
       }
-      sqx <- score_q(Zmed)
+      sqx <- score_function(Zmed)
       sqxx <- sqx %*% t(sqx)
       sqxx[lower.tri(sqxx, diag = TRUE)] = 0
       sqxx <- array(sqxx,dim=c(size1^2,1))
