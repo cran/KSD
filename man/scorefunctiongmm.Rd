@@ -26,4 +26,3 @@ model <- gmm()
 X <- rgmm(model)
 score <- scorefunctiongmm(model=model, X=X)
 }
-

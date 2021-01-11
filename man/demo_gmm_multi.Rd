@@ -9,4 +9,3 @@ demo_gmm_multi()
 \description{
 Tests multidimensional Gaussian Mixture Models.
 }
-

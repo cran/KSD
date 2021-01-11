@@ -25,4 +25,3 @@ model <- gmm()
 X <- rgmm(model)
 p <- likelihoodgmm(model=model, X=X)
 }
-

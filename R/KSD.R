@@ -18,7 +18,7 @@
 #' @return A list which includes the following variables :
 #' \itemize{
 #' \item "ksd" : Estimated Kernelized Stein Discrepancy (KSD)
-#' \item "p" :  p-Value for recting the null hypothesis that ksd = 0
+#' \item "p" :  p-Value for rejecting the null hypothesis that ksd = 0
 #' \item "bootstrapSamples" :  the bootstrap sample
 #' \item "info":   other information, including :
 #' bandwidth, M, nboot, ksd_V

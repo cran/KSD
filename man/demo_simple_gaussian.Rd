@@ -4,8 +4,7 @@
 \alias{demo_simple_gaussian}
 \title{Tests 1-dimensional Gaussian Distribution with customized parameters}
 \usage{
-demo_simple_gaussian(truemu = 5, truesd = 1, noisemu = 0, noisesd = 2,
-  n = 100)
+demo_simple_gaussian(truemu = 5, truesd = 1, noisemu = 0, noisesd = 2, n = 100)
 }
 \arguments{
 \item{truemu}{mean of true distribution}
@@ -23,4 +22,3 @@ We generate a gaussian distribution with given parameters,
 and add noise to this dataset. We then compute the score
 of each dataset for the original true distribution.
 }
-

@@ -22,4 +22,3 @@ It also plots the contour for each k-fold iteration if only 2 dimensions of data
 If a vector is specified for nClust, the code tries each element as the number of clusters
 and reports the optimal parameter by choosing one with highest p-value.
 }
-

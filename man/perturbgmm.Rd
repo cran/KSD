@@ -20,4 +20,3 @@ Returns a perturbed model of given GMM
 model <- gmm()
 noisymodel <- perturbgmm(model)
 }
-

@@ -25,4 +25,3 @@ model <- gmm()
 X <- rgmm(model)
 p <- posteriorgmm(model=model, X=X)
 }
-

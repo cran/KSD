@@ -10,4 +10,3 @@ demo_normal_performance()
 We generate a standard normal distribution,
 and add varying gaussian noise to this dataset and see the change in pvalues.
 }
-

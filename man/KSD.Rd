@@ -25,7 +25,7 @@ or user may also pass in computed score for a given dataset.}
 A list which includes the following variables :
 \itemize{
 \item "ksd" : Estimated Kernelized Stein Discrepancy (KSD)
-\item "p" :  p-Value for recting the null hypothesis that ksd = 0
+\item "p" :  p-Value for rejecting the null hypothesis that ksd = 0
 \item "bootstrapSamples" :  the bootstrap sample
 \item "info":   other information, including :
 bandwidth, M, nboot, ksd_V
@@ -66,4 +66,3 @@ X <- rgmm(model, n=100)
 score_function = pryr::partial(scorefunctiongmm, model=model)
 result <- KSD(X,score_function=score_function, 'rbf',-2.0)
 }
-

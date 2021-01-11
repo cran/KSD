@@ -27,4 +27,3 @@ mu <- model$mu
 X <- rgmm(model)
 plotgmm(data=X, mu=mu)
 }
-

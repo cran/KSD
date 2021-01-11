@@ -35,4 +35,3 @@ mu <- matrix(c(1,2,3,2,3,4,5,6,7),ncol=3)
 sigma <- array(diag(3),c(3,3,3))
 model <- gmm(nComp = 3, mu = mu, sigma=sigma, weights = c(0.2,0.4,0.4), d = 3)
 }
-

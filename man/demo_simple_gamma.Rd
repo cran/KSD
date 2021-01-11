@@ -4,8 +4,13 @@
 \alias{demo_simple_gamma}
 \title{Tests 1-dimensional Gamma Distribution with customized parameters}
 \usage{
-demo_simple_gamma(trueshape = 10, truescale = 3, noisemu = 5,
-  noisesd = 2, n = 100)
+demo_simple_gamma(
+  trueshape = 10,
+  truescale = 3,
+  noisemu = 5,
+  noisesd = 2,
+  n = 100
+)
 }
 \arguments{
 \item{trueshape}{shape of true gamma distribution}
@@ -23,4 +28,3 @@ We generate a gamma distribution with given parameters,
 and add gaussian noise to this dataset. We then compute the score
 of each dataset for the original true distribution.
 }
-

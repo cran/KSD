@@ -29,4 +29,3 @@ X <- rgmm(model)
 model <- gmm(d=3)
 X <- rgmm(model,n=300)
 }
-

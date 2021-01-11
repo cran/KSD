@@ -9,4 +9,3 @@ demo_gmm()
 \description{
 Tests 1-dimensional Gaussian Mixture Models.
 }
-
